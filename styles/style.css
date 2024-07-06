@@ -1,0 +1,125 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.span{
+    color: #FD6E0A ;
+    font-weight: bolder;
+    font-size: 45px;
+
+}
+
+.btn-primary{
+    background-color:#FD6E0A;
+   border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 36px;
+    cursor: pointer;
+
+}
+
+
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+
+
+}
+
+nav .title{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-left: 217px;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    margin-top: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Banner Styles */
+
+.banner-subtitle{
+    font-weight: 600px;
+    font-size: 45px;
+    color:rgb(71, 71, 71);
+    margin-bottom: 5px;
+    
+}
+
+.banner-heading{
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+
+.banner-content{
+    max-width:585px;
+    margin-bottom: 30px;
+}
+
+.banner-content .btn-secondary{
+
+    background-color: white;
+    border-color: #FD6E0A;
+     border-radius: 5px;
+     color:#FD6E0A;
+     font-weight: 700;
+     font-size: 20px;
+     padding: 18px 36px;
+     margin-left: 30px;
+     cursor: pointer;
+ 
+}
+
+.banner-image{
+    max-width: 584px;
+    height: 676px;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+    
+}
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+
+}
