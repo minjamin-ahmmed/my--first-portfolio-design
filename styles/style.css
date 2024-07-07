@@ -20,6 +20,7 @@
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    text-align: center;
 }
 .about-description{
     font-size: 18px;
@@ -166,16 +167,23 @@ nav ul li a{
 .item-heading{
     font-weight: bold;
     font-size: 20px;
+    
 }
+
 
 .skill-description{
     font-size: 16px;
     color:#757575;
+   
 
 }
 
 .item1{
     max-width: 267px;
+    background-color:whitesmoke;
+    box-shadow: 0 6px 50px 0 rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding:50px 30px;
 
 }
 
@@ -187,4 +195,68 @@ nav ul li a{
     gap: 24px;
 }
 
+/* resume styles */
+.resume-heading{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.resume-subheading{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.resume-short-description{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.resume-description{
+    font-size: 16px;
+    color: #757575;
+}
+
+.parent{
+    display: flex;
+    gap: 124px;
+}
+
+.resume-subheading .resume-short-description .resume-description{
+    width: 458px;
+
+}
+
+.resume{
+    margin: 0 230px;
+}
+
+.resume-button{
+    text-align: center;
+}
+
+/* footer styles */
+
+footer{
+    padding: 130px 230px;
+    background-color:#FFF8F3;
+    display: flex;
+    gap: 100px;
+    
+}
+
+.column1{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    width: 461px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #757575;
+    border: none;
+    font-size: 16;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+}
 
